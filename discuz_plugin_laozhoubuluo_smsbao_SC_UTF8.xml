@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[短信宝短信网关接口]]></item>
+			<item id="identifier"><![CDATA[laozhoubuluo_smsbao]]></item>
+			<item id="description"><![CDATA[]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[laozhoubuluo_smsbao/]]></item>
+			<item id="copyright"><![CDATA[老周部落]]></item>
+			<item id="version"><![CDATA[1.1]]></item>
+		</item>
+		<item id="version"><![CDATA[X3.5]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[短信宝平台用户名]]></item>
+				<item id="description"><![CDATA[短信宝平台用户名]]></item>
+				<item id="variable"><![CDATA[username]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[短信宝平台 APIKEY]]></item>
+				<item id="description"><![CDATA[可在后台首页获取]]></item>
+				<item id="variable"><![CDATA[apikey]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[短信签名]]></item>
+				<item id="description"><![CDATA[短信前缀内容，签名文字可以是公司简称、网站简称、注册商标，3～8个字符，不需要输入方括号]]></item>
+				<item id="variable"><![CDATA[smsheader]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[验证码模板]]></item>
+				<item id="description"><![CDATA[验证码模板，其中 {code} 为验证码替换关键字请不要删除。请务必注意过长的内容可能会带来高昂的短信费用。]]></item>
+				<item id="variable"><![CDATA[codetemplate]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[尊敬的用户，您本次操作的短信验证码是 {code} ，打死也不要告诉别人哦。感谢您的信任与支持，祝您生活愉快！]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="license"><![CDATA[Copyright 2022 老周部落
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+NOTICE: Removing or modifying any content about the author will be
+regarded as "remove attribution notices" and is prohibited,
+including name, description and relevant URLs.
+本程序使用 Apache License 2.0 协议授权，您必须遵守此协议才能安装本程序。
+特别声明：作者对“必须保留署名”的定义是不得去除程序内的任何一处作者署名，介绍及相关网址等作者个人信息，也不接受相关修改。]]></item>
+		<item id="intro"><![CDATA[本插件方便用户对接短信宝短信网关接口，以发送短信验证码或者站点通知。]]></item>
+	</item>
+</root>
